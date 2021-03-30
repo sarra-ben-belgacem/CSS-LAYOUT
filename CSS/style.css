@@ -1,0 +1,65 @@
+* {
+    font-family: "Roboto";
+    color: blue;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+nav {
+    background-color: gray;
+    height: 60px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav li {
+    float: left;
+}
+nav li a,
+nav input {
+    display: inline block;
+    text-align: center;
+    color: black;
+    padding: 14px;
+    margin-left: 160px;
+    height: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#def {
+    display: flex;
+}
+
+.para {
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.abc {
+    padding: 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot {
+    background-color: gray;
+    text-align: center;
+}
